@@ -1,0 +1,6 @@
+comando compilacion: 
+javac –d ./classes/ ./src/es/unileon/prg1/juego/*.java
+Comando ejecucion:
+java –classpath ./classes es.unileon.prg1.juego.MainTicTacToe
+Comando generacion documentacion:
+javadoc -d    ./doc -author -version -private –linksource ./src/es/unileon/prg1/juego/*.java
